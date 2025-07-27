@@ -12,9 +12,12 @@ let num = 7;
 (num % 2 == 0 && console.log("Even")) || console.log("Odd");
 
 // 3. Find the Maximum of Three Numbers Use only comparison and logical operators.
-let num1=15, num2=25, num3=20;
-let num=(num1 > num2 && num1 > num3 && num1) || (num2 > num3 && num2 || num3);
-console.log("Max:", num);
+let num1 = 30;
+let num2 = 45;
+let num3 = 25;
+(num1 >= num2 && num1 >= num3 && console.log("Max =", num1)) ||
+(num2 >= num1 && num2 >= num3 && console.log("Max =", num2)) ||
+(num3 >= num1 && num3 >= num2 && console.log("Max =", num3));
 
 // 4. Write a Simple Calculator Function That takes two numbers and an operator (+, -, *, /, %) and returns the result.
 function i(e, f, g) {

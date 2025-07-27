@@ -8,9 +8,8 @@ a=a - b;
 console.log("a =", a, "b =", b);
 
 // 2. Check If a Number is Even or Odd Use the modulus (%) operator and logical operators, without using if or ternary (? :).
-let c=7;
-let d=!(c % 2);
-console.log("Even:", d);
+let num = 7;
+(num % 2 == 0 && console.log("Even")) || console.log("Odd");
 
 // 3. Find the Maximum of Three Numbers Use only comparison and logical operators.
 let num1=15, num2=25, num3=20;
